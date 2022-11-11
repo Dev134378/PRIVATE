@@ -1,0 +1,38 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local window = kavoUi.CreateLib("OVO Hub","Ocean")
+
+---Tabs
+
+local Tab1 = window:NewTab("Main")
+
+local Tab1Section = Tab1:NewSection("Popular Scripts")
+
+local Tab2 = window:NewTab("Other")
+
+local Tab2Section = Tab2:NewSection("Coming Soon!")
+
+local Tab3 = window:NewTab("Credits")
+
+local Tab3Section = Tab3:NewSection("Sussy")
+
+---Buttons
+
+Tab1Section:NewButton("Infinite Yield","Executes Infinite Yield.",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+Tab1Section:NewButton("fly","Executes Fly GUI.",function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/5bXMQ6Ns'))();
+
+end)
+
+Tab1Section:NewButton("Bypass Chat (FE)","Executes Chat Bypasser (FE).",function()
+
+loadstring(game:GetObjects("rbxassetid://1262435912")[1].Source)()
+
+end)
+
